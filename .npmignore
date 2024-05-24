@@ -1,0 +1,32 @@
+# Archivos y directorios a ignorar al publicar en npm
+
+/build
+
+# Archivos de configuración locales
+.env
+.env.local
+.env.*.local
+
+# Directorio de dependencias
+/node_modules
+
+# Archivos de prueba y configuración de prueba
+/tests
+*.test.js
+*.spec.js
+jest.config.js
+
+# Archivos de construcción
+coverage
+*.log
+
+# Archivos generados por Rollup
+/dist
+.rollupcache
+
+# Otros archivos y directorios de desarrollo
+.git
+.gitignore
+.eslintignore
+.eslintcache
+.editorconf
