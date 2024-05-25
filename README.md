@@ -10,14 +10,13 @@ Modular: Incluye solo los componentes que necesitas.
 📦 Instalación
 Para instalar la biblioteca, puedes usar npm:
 ```
-npm install mi-biblioteca-componentes
+npm install proyecto-alex
 ```
 
 📚 Documentación
 Para ver la documentación completa, clona el repositorio y arranca con:
 ```
-git clone https://github.com/tu-usuario/mi-biblioteca-componentes.git
-cd mi-biblioteca-componentes
+git clone https://github.com/Hermanosmx612/Pfc_Components.git
 npm install
 npm run dev
 ```
