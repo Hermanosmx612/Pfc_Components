@@ -1,20 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "jsx": "react",
-    "module": "ESNext",
-    "declaration": true,
-    "declarationDir": "types",
-    "sourceMap": true,
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    // --downlevelIteration
-    "downlevelIteration": true
-  }
+    "outDir": "./dist",  // Directorio de salida para los archivos compilados
+    "rootDir": "./src",  // Directorio raíz de tus archivos fuente
+    "target": "ES6",  // Versión de ECMAScript de salida
+    "module": "commonjs",  // Módulo de sistema a usar
+    "declaration": true,  // Generar archivos de declaración (.d.ts)
+    "strict": true,  // Habilitar todas las verificaciones estrictas
+    "esModuleInterop": true,  // Habilitar interoperabilidad con módulos ES6
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }

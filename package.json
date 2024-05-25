@@ -1,16 +1,15 @@
 {
-  "name": "proyectoalex",
-  "version": "0.0.0",
+  "name": "proyecto-alex",
+  "version": "1.0.4",
   "description": "",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
   "files": [
-    "dist"
+    "/dist"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "sb dev -p 6006",
-    "build": "sb build",
+    "build": "tsc",
     "dev": "sb dev -p 6006",
     "prettier": "npx prettier --write .",
     "lint": "eslint .",
@@ -20,12 +19,13 @@
   "author": "Alex garcia",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.21.3",
-    "@babel/preset-react": "^7.24.1",
-    "@chromatic-com/storybook": "^1.4.0",
-    "@rollup/plugin-commonjs": "^24.0.1",
-    "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-typescript": "^11.0.0",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.7",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@storybook/addon-essentials": "^8.1.1",
     "@storybook/addon-interactions": "^8.1.1",
     "@storybook/addon-links": "^8.1.1",

@@ -21,7 +21,7 @@ coverage
 *.log
 
 # Archivos generados por Rollup
-/dist
+storybook-static
 .rollupcache
 
 # Otros archivos y directorios de desarrollo
